@@ -1,0 +1,4 @@
+
+Что бы включить https
+uvicorn app.main:app --reload --ssl-keyfile=key.pem --ssl-certfile=cert.pem
+
